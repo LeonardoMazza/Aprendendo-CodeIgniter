@@ -3,8 +3,8 @@
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="section-title">
-							<h2>ABOUT</h2>
-							<p>A creative agency based on Candy Land, ready to boost your business with some beautifull templates. Lattes Agency is one of the best in town see more you will be amazed.</p>
+							<h2>SOBRE</h2>
+							<p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet mi varius, porta tortor et, semper mauris. Pellentesque pretium purus eu ipsum egestas aliquam. In elementum non velit quis laoreet. In ultricies sapien quis maximus lacinia. Nulla nec nulla ex. Nunc placerat porta quam at euismod. Donec ac lorem in purus sodales sollicitudin. Suspendisse volutpat gravida feugiat. Mauris nec velit sit amet velit tincidunt tincidunt in aliquet felis. Etiam velit nibh, feugiat ut dolor et, ultricies porta sem. Quisque blandit libero vel nulla viverra placerat iaculis eu enim. Ut non vulputate ipsum.</p>
 						</div>
 					</div>
 				</div>
@@ -13,7 +13,7 @@
 					<div class="col-md-3 text-center">
 						<div class="mz-module-about">
 							<i class="fa fa-briefcase ot-circle"></i>
-							<h3>Web Development</h3>
+							<h3>Desenvolvimento Web</h3>
 							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 						</div>
 					</div>
@@ -22,8 +22,8 @@
 					<div class="col-md-3 text-center">
 						<div class="mz-module-about">
 							<i class="fa fa-photo ot-circle"></i>
-							<h3>Visualisation</h3>
-							<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+							<h3>Visualização</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 						</div>
 					</div>
 					<!-- end about module -->
@@ -31,8 +31,8 @@
 					<div class="col-md-3 text-center">
 						<div class="mz-module-about">
 							<i class="fa fa-camera-retro ot-circle"></i>
-							<h3>Photography</h3>
-							<p>Accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+							<h3>Fotografia</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 						</div>
 					</div>
 					<!-- end about module -->
@@ -41,7 +41,7 @@
 						<div class="mz-module-about">
 							<i class="fa fa-cube ot-circle"></i>
 							<h3>UI/UX Design</h3>
-							<p> Itaque earum rerum hic tenetur a sapiente, ut aut reiciendis maiores</p>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 						</div>
 					</div>
 					<!-- end about module -->
@@ -49,97 +49,32 @@
 			</div>
 			<!-- /.container -->
 		</section>
-		<section >
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="skills-text">
-							<h2>WE`RE CREATIVE</h2>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br><br>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur?</p>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<!-- skill bar item -->
-						<div class="skillbar-item">
-							<div class="skillbar-score">
-								<span class="score">90</span><span class="percent">%</span>
-							</div>
-							<div class="skillbar" data-percent="90%">
-								<h3>Web design</h3>
-								<div class="skillbar-bar">
-									<div class="skillbar-percent" style="width: 90%;">
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- skill bar item -->
-						<div class="skillbar-item">
-							<div class="skillbar-score">
-								<span class="score">80</span><span class="percent">%</span>
-							</div>
-							<div class="skillbar" data-percent="80%">
-								<h3>Development</h3>
-								<div class="skillbar-bar">
-									<div class="skillbar-percent" style="width: 80%;">
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- skill bar item -->
-						<div class="skillbar-item">
-							<div class="skillbar-score">
-								<span class="score">85</span><span class="percent">%</span>
-							</div>
-							<div class="skillbar" data-percent="85%">
-								<h3>Photography</h3>
-								<div class="skillbar-bar">
-									<div class="skillbar-percent" style="width: 85%;">
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- skill bar item -->
-						<div class="skillbar-item">
-							<div class="skillbar-score">
-								<span class="score">70</span><span class="percent">%</span>
-							</div>
-							<div class="skillbar" data-percent="70%">
-								<h3>Marketing</h3>
-								<div class="skillbar-bar">
-									<div class="skillbar-percent" style="width: 70%;">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		
 		<section class="overlay-dark bg-img1 dark-bg short-section">
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-md-3 mb-sm-30">
 						<div class="counter-item">
 							<h2 data-count="59">59</h2>
-							<h6>awards</h6>
+							<h6>Prêmios</h6>
 						</div>
 					</div>
 					<div class="col-md-3 mb-sm-30">
 						<div class="counter-item">
 							<h2 data-count="1054">1054</h2>
-							<h6>Clients</h6>
+							<h6>Clientes</h6>
 						</div>
 					</div>
 					<div class="col-md-3 mb-sm-30">
 						<div class="counter-item">
 							<h2 data-count="34">34</h2>
-							<h6>Team</h6>
+							<h6>Equipe</h6>
 						</div>
 					</div>
 					<div class="col-md-3 mb-sm-30">
 						<div class="counter-item">
 							<h2 data-count="154">154</h2>
-							<h6>Project</h6>
+							<h6>Projetos</h6>
 						</div>
 					</div>
 				</div>
@@ -151,7 +86,7 @@
 				<div class="col-lg-12 text-center">
 					<div class="section-title">
 						<h2>Portfolio</h2>
-						<p>Our portfolio is the best way to show our work, you can see here a big range of our work. Check them all and you will find what you are looking for.</p>
+						<p align="justify">Nosso portfólio é a melhor maneira de mostrar nosso trabalho, você pode ver aqui uma grande variedade do nosso trabalho. Verifique todos eles e você encontrará o que está procurando.</p>
 					</div>
 				</div>
 			</div>
@@ -245,52 +180,14 @@
 			</div>
 			</div><!-- end container -->
 		</section>
-		<section>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="section-title">
-							<h2>Our Partners</h2>
-							<p>Mida sit una namet, cons uectetur adipiscing adon elit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="owl-carousel">
-							<div class="item">
-								<div class="partner-logo"><img src="<?php echo base_url(); ?>public/images/demo/partners-1.png" alt="partners"></div>
-								</div>
-							<div class="item">
-								<div class="partner-logo"><img src="<?php echo base_url(); ?>public/images/demo/partners-2.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="<?php echo base_url(); ?>public/images/demo/partners-3.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="<?php echo base_url(); ?>public/images/demo/partners-4.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="<?php echo base_url(); ?>public/images/demo/partners-5.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="<?php echo base_url(); ?>public/images/demo/partners-6.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="<?php echo base_url(); ?>public/images/demo/partners-7.png" alt="partners"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		
 		<section id="team" class="light-bg">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="section-title">
-							<h2>Our Team</h2>
-							<p>A creative agency based on Candy Land, ready to boost your business with some beautifull templates. Lattes Agency is one of the best in town see more you will be amazed.</p>
+							<h2>Equipe</h2>
+							<p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet mi varius, porta tortor et, semper mauris. Pellentesque pretium purus eu ipsum egestas aliquam. In elementum non velit quis laoreet. In ultricies sapien quis maximus lacinia.</p>
 						</div>
 					</div>
 				</div>
@@ -363,8 +260,8 @@
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="section-title">
-							<h2>Contact Us</h2>
-							<p>If you have some Questions or need Help! Please Contact Us!<br>We make Cool and Clean Design for your Business</p>
+							<h2>Contate-nos</h2>
+							<p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet mi varius, porta tortor et, semper mauris. Pellentesque pretium purus eu ipsum egestas aliquam.</p>
 						</div>
 					</div>
 				</div>
@@ -386,13 +283,13 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name.">
+										<input type="text" class="form-control" placeholder="Seu nome *" id="name" required="" data-validation-required-message="Please enter your name.">
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
+										<input type="email" class="form-control" placeholder="Seu e-mail *" id="email" required="" data-validation-required-message="Please enter your email address.">
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>
@@ -400,7 +297,7 @@
 							<div class="row">
 								<div class="col-md-12">
 									<div class="form-group">
-										<textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
+										<textarea class="form-control" placeholder="Sua mensagem *" id="message" required="" data-validation-required-message="Por favor digite a mensagem."></textarea>
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>
@@ -409,7 +306,7 @@
 							<div class="row">
 								<div class="col-lg-12 text-center">
 									<div id="success"></div>
-									<button type="submit" class="btn">Send Message</button>
+									<button type="submit" class="btn">Enviar mensagem</button>
 								</div>
 							</div>
 						</form>
