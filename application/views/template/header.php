@@ -27,7 +27,7 @@
 	</head>
 	<body id="page-top">
 		<!-- Navigation -->
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar navbar-default navbar-shrink navbar-fixed-top">
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header page-scroll">
@@ -46,19 +46,22 @@
 							<a href="#page-top"></a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#about">Sobre</a>
+							<a class="page-scroll" href="<?php echo base_url(); ?>#about">Sobre</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#services">Serviços</a>
+							<a class="page-scroll" href="<?php echo base_url(); ?>#services">Serviços</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#portfolio">Portfólio</a>
+							<a class="page-scroll" href="<?php echo base_url(); ?>#portfolio">Portfólio</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#team">Equipe</a>
+							<a class="page-scroll" href="<?php echo base_url(); ?>#team">Equipe</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#contact">Contato</a>
+							<a class="page-scroll" href="<?php echo base_url(); ?>#contact">Contato</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="<?php echo base_url(); ?>restrict">Login</a>
 						</li>
 					</ul>
 				</div>
@@ -66,15 +69,3 @@
 			</div>
 			<!-- /.container-fluid -->
 		</nav>
-		<!-- Header -->
-		<header>
-			<div class="container">
-				<div class="slider-container">
-					<div class="intro-text">
-						<div class="intro-lead-in"></div>
-						<div class="intro-heading">Mazza - Web Solutions</div>
-						<a href="#about" class="page-scroll btn btn-xl">Conte-me mais!</a>
-					</div>
-				</div>
-			</div>
-		</header>

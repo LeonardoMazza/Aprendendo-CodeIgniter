@@ -1,3 +1,15 @@
+		<!-- Header -->
+		<header>
+			<div class="container">
+				<div class="slider-container">
+					<div class="intro-text">
+						<div class="intro-lead-in"></div>
+						<div class="intro-heading">Mazza - Web Solutions</div>
+						<a href="#about" class="page-scroll btn btn-xl">Conte-me mais!</a>
+					</div>
+				</div>
+			</div>
+		</header>
 <section id="about" class="light-bg">
 			<div class="container">
 				<div class="row">

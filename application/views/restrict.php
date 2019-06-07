@@ -1,0 +1,3 @@
+<div>
+	Área restrita
+</div>
