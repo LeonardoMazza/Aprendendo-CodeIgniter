@@ -33,7 +33,7 @@
 								<div class="row">
 									<div class="col-lg-12">
 										<div class="form-group">
-											<button type="submit" id="btn-login" class="btn btn-block">Login</button>
+											<button type="submit" id="btn_login" class="btn btn-block">Login</button>
 										</div>
 										<span class="help-block"></span>
 									</div>
