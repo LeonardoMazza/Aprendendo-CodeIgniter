@@ -1,4 +1,4 @@
-const BASE_URL = "localhost/UDEMY/Aprendendo-CodeIgniter/";
+const BASE_URL = "http://localhost/UDEMY/Aprendendo-CodeIgniter/";
 
 function clearErrors() {
 	$(".has-error").removeClass("has-error");
