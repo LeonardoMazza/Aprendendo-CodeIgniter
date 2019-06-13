@@ -9,15 +9,18 @@ class Restrict extends CI_Controller{
 	}
 	public function index(){
 		if($this->session->userdata("user_id")) {
-			$this->template->show("restrict.php");
-
+			$data = array(
+				"scripts" => array(
+					"util.js",
+					"restrict.js"
+			)
+		);
+			$this->template->show("restrict.php", $data);
 		} else {
-
-
-		$data = array(
-			"scripts" => array(
-				"util.js",
-				"login.js"
+			$data = array(
+				"scripts" => array(
+					"util.js",
+					"login.js"
 			)
 		);
 		$this->template->show("login.php", $data);
@@ -67,5 +70,35 @@ class Restrict extends CI_Controller{
 		echo json_encode($json);
 
 	}
-}
 
+	public function ajax_import_image() {
+
+		if (!$this->input->is_ajax_request()) {
+			exit("Nenhum acesso de script direto permitido!");
+		}
+
+		$config["upload_path"] = "./tmp/";
+		$config["allowed_types"] = "gif|png|jpg";
+		$config["overwrite"] = TRUE;
+
+		$this->load->library("upload", $config);
+
+		$json = array();
+		$json["status"] = 1;
+
+		if (!$this->upload->do_upload("image_file")){
+			$json["status"] = 0;
+			$json["error"] = $this->upload->display_errors("","");
+		} else {
+			if ($this->upload->data()["file_size"] <= 1024){
+				$file_name = $this->upload->data()["file_name"];
+				$json["img_path"] = base_url() . "tmp/" . $file_name;
+			} else {
+				$json["status"] = 0;
+				$json["error"] = "Arquivo não deve ser maior que 1 MB";
+			}
+		}
+		
+		echo json_encode($json);
+	}
+}
